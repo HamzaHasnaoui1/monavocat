@@ -7,5 +7,4 @@ import org.mapstruct.Mapper;
 @Mapper
 public interface TribunalMapper {
     Tribunal tribunalDtoToTribunal (TribunalDto tribunalDto);
-    TribunalDto tribunalToTribunalDto (Tribunal tribunal);
 }
